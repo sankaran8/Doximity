@@ -1,0 +1,17 @@
+{
+    "name": "kdco/doximity",
+    "description": "Doximity OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [{
+        "name": "Sankaran",
+        "email": "sankaran.ps@gmil.com.com"
+    }],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kdco\\Doximity\\": "src/"
+        }
+    }
+}
