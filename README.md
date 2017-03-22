@@ -39,7 +39,13 @@ private function addDoximityToSocialite()
     );
 }
 ```
-Call this function inside `boot()` of `AppServiceProvider.php`
+Call this function inside `boot()` of `AppServiceProvider.php` 
+```php
+public function boot()
+{
+    $socialite = $this->app->addDoximityToSocialite();
+}
+```
 5. Create a controller for doximity login add add folowing functions
 ```php
 public function redirectToProvider()
