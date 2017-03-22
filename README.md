@@ -50,8 +50,6 @@ public function redirectToProvider()
 public function handleCallback()
 {
     $user = Socialize::driver('doximity')->user();
-
-    // $user->token;
 }
 ```
 6. Create `routes` for those methods
